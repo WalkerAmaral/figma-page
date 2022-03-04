@@ -9,11 +9,97 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Codehouse</title>
-
+    <div class="FONT-PLACEHOLDER"></div>
 </head>
 
 <body>
+    <header class="cabecalho">
+        <div class="cabecalho-logo">
+            <img class="cabecalho-logo-imagem" src="./images/logo.svg" alt="">
+            <p class="cabecalho-logo-escrito">codehouse</p>
+        </div>
+        <nav class="cabecalho-navegacao-principal">
+            <a class="cabecalho-navegacao-principal-link" href="">Features</a>
+            <a class="cabecalho-navegacao-principal-link" href="">Solutions</a>
+            <a class="cabecalho-navegacao-principal-link" href="">Resources</a>
+            <a class="cabecalho-navegacao-principal-link" href="">Pricing</a>
+        </nav>
+        <nav class="cabecalho-navegacao-secundario">
+            <a class="cabecalho-navegacao-secundario-link" href="">Login</a>
+            <a class="cabecalho-navegacao-secundario-link" href="">Try for free</a>
+        </nav>
+    </header>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <h1 class="conteudo-principal-titulo">Get help with <em>coding</em> from engineers<em>.</em></h1>
+            <p class="conteudo-principal-texto">Learn how to code efficiently and create apps and games that work. Consult with best experts to apply skills in action.</p>
+            <section class="conteudo-principal-navegacao">
+                <div class="conteudo-principal-navegacao-principal">
+                    <a class="conteudo-principal-navegacao-link" href="">Start learning</a>
+                </div>
+                <div class="conteudo-principal-navegacao-secundario">
+                    <img src="./images/play-button.svg" alt="Botão de tocar ví">
+                    <a class="conteudo-principal-navegacao-link" href="">Watch Video</a>
+                </div>
+            </section>
+        </section>
 
+        <section class="conteudo-secundario">
+            <div class="conteudo-secundario-fundo">
+                <div class="conteudo-secundario-fundo-lateral">
+
+
+                    <!---->
+                    <div class="BOLINHAS">
+                        bolinhas
+                    </div>
+                    <!---->
+
+
+                    <img class="conteudo-secundario-lateral-icones" src="./images/code-icon.svg" alt="">
+                    <img class="conteudo-secundario-lateral-icones" src="./images/folder.svg" alt="">
+                    <img class="conteudo-secundario-lateral-icones" src="./images/comment.svg" alt="">
+                    <img class="conteudo-secundario-lateral-icones" src="./images/config.svg" alt="">
+                </div>
+
+                <div class="conteudo-secundario-fundo-principal">
+                    <pre>
+                    export default {
+                        data() { 
+                            return { 
+                                newTodo: '',
+                                todos: [
+                                {id: id++, text: 'Learn HTML' },
+                                { id: id++, text: 'Learn JavaScript' },
+                                { id: id++, text: 'Learn Vue' }
+                            ] 
+                        } 
+                    }, methods: {
+                        addTodo() { 
+                            // ... this.newTodo = '' 
+                        }, removeTodo(todo)
+                    { // ... } } }
+                </pre>
+                </div>
+
+                <div class="conteudo-secundario-fundo-icones">
+                    <img class="conteudo-secundario-icones-imagem" src="./images/icon-1.jpg" alt="">
+                    <img class="conteudo-secundario-icones-imagem" src="./images/icon-2.jpg" alt="">
+                    <img class="conteudo-secundario-icones-imagem" src="./images/icon-3.jpg" alt="">
+                    <img class="conteudo-secundario-icones-imagem" src="./images/icon-4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="conteudo-secundario-destacado">
+                <img class="conteudo-secundario-destacado-imagem" src="./images/imagem-principal.jpeg" alt="Imagem de uma pessoa iluminada por luz azul em um fundo roxo">
+                <img class="conteudo-secundario-destacado-icone" src="./images/comment.svg" alt="Ícone de chat">
+                <div class="conteudo-secundario-destacado-chat">
+                    <p class="conteudo-secundario-destacado-chat-pergunta">Hi karen, what attributes should I use in here? Any thoughts on this?</p>
+                    <p class="conteudo-secundario-destacado-chat-resposta">Hi Samantha!</p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
