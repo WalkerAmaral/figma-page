@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: #e5e5e5;
+    background-color: whitesmoke;
 }
 
 
@@ -67,8 +67,61 @@ body {
     padding: 12px 24px;
 }
 
-
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 84px;
 }
+
+.conteudo-principal {
+    font-family: 'Clash Display', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo-principal-titulo {
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.conteudo-principal-titulo strong {
+    color: #7949E5;
+    font-weight: 400;
+}
+
+.conteudo-principal-texto,
+.conteudo-principal-navegacao {
+    font-weight: 500;
+}
+
+.conteudo-principal-texto {
+    width: 403px;
+    font-size: 18px;
+}
+
+.conteudo-principal-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 48px;
+    width: 403px;
+}
+
+.conteudo-principal-navegacao-link {
+    background: linear-gradient(89.64deg, #746BDB -7.92%, #8359E3 95.42%, #8A52E7 151.95%);
+    color: white;
+    padding: 12px 24px;
+}
+
+.conteudo-principal-navegacao-secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
 
 /* só pra não atrapalhar
 
